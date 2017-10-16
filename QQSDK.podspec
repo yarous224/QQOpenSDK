@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name                    = 'QQSDK'
-  s.version                 = '3.2.3'
-  s.summary                 = 'Tencent QQ Open SDK 3.2.3 full version'
+  s.version                 = '3.3.0'
+  s.summary                 = 'Tencent QQ Open SDK 3.3.0 version'
   s.requires_arc            = true
   s.homepage                = 'http://open.qq.com/'
   s.license                 = { :type => 'LGPL', :text => <<-LICENSE
@@ -14,5 +14,4 @@ Pod::Spec.new do |s|
   s.frameworks              = 'Security', 'SystemConfiguration', 'CoreGraphics', 'CoreTelephony'
   s.libraries               = 'iconv', 'sqlite3', 'stdc++', 'z'
   s.ios.vendored_frameworks = 'sdk/TencentOpenAPI.framework'
-  s.resource = 'sdk/TencentOpenApi_IOS_Bundle.bundle'
 end
